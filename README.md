@@ -1,71 +1,92 @@
-Para utilizar este template siga o tutorial disponível em: http://www.biblioteca.ufc.br/images/arquivos/instrucoes_modelos/tutorial_sharelatex.pdf
+# UFC - Modelo de trabalho acadêmico utilizando o LaTeX
 
-# Útimas alterações
-22/07/2022
-    -atualizações em todas as partes do template, visando adequar as novas normas da ABNT, conforme parecer emitido pela Comissão de Normalização do Sistema de Bibliotecas da UFC.
+## Últimas alterações
 
-03-07-2017              
-    -Contagem de tabelas corrigida;
-    -Dois pontos após fonte de figuras e tabelas;       
-    -Inclusão do departamento na capa do trabalho;      
-    -As equações foram alocadas completamente as esquerda. 
+03-07-2017        
+  - Contagem de tabelas corrigida;
+  - Dois pontos após fonte de figuras e tabelas;     
+  - Inclusão do departamento na capa do trabalho;    
+  - As equações foram alocadas completamente as esquerda.
+	
 04-07-2017
-    -inclusão de pdf em apêndice;
-    -inclusão de pdf em anexo.
+  - inclusão de pdf em apêndice;
+  - inclusão de pdf em anexo.
+	
 06-07-2017
-    -espaçamento dos títulos de figuras, tabelas e quadros foram alterados de 1.5 para espaçamento simples (1.0);
-    -Margens dos títulos das figuras ajustadas para ficar do tamanho da figura;
-    -Margens dos títulos das tabelas ajustados para ficar do tamanho da tabela;
-    -Quadro circunscrito de figuras retirados exceto, figuras de resultados.
-    -espaçamento entre linhas ajustado para espaçamento simples nos títulos e legendas de figuras e tabelas;
+  - espaçamento dos títulos de figuras, tabelas e quadros foram alterados de 1.5 para espaçamento simples (1.0);
+  - Margens dos títulos das figuras ajustadas para ficar do tamanho da figura;
+  - Margens dos títulos das tabelas ajustados para ficar do tamanho da tabela;
+  - Quadro circunscrito de figuras retirados exceto, figuras de resultados.
+  - espaçamento entre linhas ajustado para espaçamento simples nos títulos e legendas de figuras e tabelas;
+	
 10-07-2017
-    -Elaboração de textos explicativos sobre figuras e equações;
-    -Pasta renomeadas para ficar na ordem de pre, textual e pós;  
+  - Elaboração de textos explicativos sobre figuras e equações;
+  - Pasta renomeadas para ficar na ordem de pre, textual e pós;  
+	
 12-07-2017
-    -O nome da pasta das referência estava errado. Isso fazia aparecer um ponto de interrogação nas citações. Isso já foi corrigido.
+  - O nome da pasta das referência estava errado. Isso fazia aparecer um ponto de interrogação nas citações. Isso já foi corrigido.
+	
 14-07-2017
-    -Espaçamento corrigido entre o texto de identificação do trabalho e o orientador.
+  - Espaçamento corrigido entre o texto de identificação do trabalho e o orientador.
+	
 18-09-2017
-    -Nome da LISTA DE ILUSTRAÇÕES alterado para LISTA DE FIGURAS
+  - Nome da LISTA DE ILUSTRAÇÕES alterado para LISTA DE FIGURAS
+	
 15-01-2018
-    -Alteração do ano de 2017 para 2018
+  - Alteração do ano de 2017 para 2018
+	
 20-02-2018
-    -Alteração do nome "Coorientador" de acordo com a nova norma ortográfica
+  - Alteração do nome "Coorientador" de acordo com a nova norma ortográfica
+	
 24-02-2018
-    -Inclusão de um texto chamando a atenção para o usuário configurar a opção referente ao nível do trabalho acadêmico que está sendo desenvolvido (tcc de graduação, trabalho de especialização, dissertação de mestrado ou tese de doutorado) nas primeiras opções do arquivo "documento.tex"
+  - Inclusão de um texto chamando a atenção para o usuário configurar a opção referente ao nível do trabalho acadêmico que está sendo desenvolvido (tcc de graduação, trabalho de especialização, dissertação de mestrado ou tese de doutorado) nas primeiras opções do arquivo "documento.tex"
+	
 22-03-2018
-    -Atualização dos e-mails para dúvidas e sugestões;
+  - Atualização dos e-mails para dúvidas e sugestões;
+	
 21-11-2018
-    -Adicionada opção para alterar a fonte de todo o texto de Times New Roman para Arial. Basta descomentar as linhas 80 e 81 do arquivo "preambulo.tex" dentro da pasta "lib".
-    -Nota de esclarecimento quanto a limitação da geração do referencial bibliográfico. 
+  - Adicionada opção para alterar a fonte de todo o texto de Times New Roman para Arial. Basta descomentar as linhas 80 e 81 do arquivo "preambulo.tex" dentro da pasta "lib".
+  - Nota de esclarecimento quanto a limitação da geração do referencial bibliográfico. 
+	
 09-01-2019
-    -Acrescentado comentário explicando com deixar as equações centralizadas na linas 59 do arquivo "documento"
+  - Acrescentado comentário explicando com deixar as equações centralizadas na linas 59 do arquivo "documento"
+	
 23-01-2019
-    -Correção de erro de compilação na linha 60 do arquivo documentos. 
-    -Nota de esclarecimento de como utilizar siglas.
+  - Correção de erro de compilação na linha 60 do arquivo documentos. 
+  - Nota de esclarecimento de como utilizar siglas.
+	
 07-06-2019
-    -Atualização de contato para dúvidas e sugestões.
+  - Atualização de contato para dúvidas e sugestões.
+	
 18-02-2020
-    -Lista de abreviaturas alterada. Estava em ordem alfabética e agora está em ordem que é citada no texto.
-    -Seções foram alterada para somente a primeira letra ficar em maiúsculo.
-    -Nomes de apêndices e anexos corrigidos para ficarem totalmente em maiúsculo e negrito.
-    -Citação com número de página incluída.
-    -Marcadores de itens modificados para "-".
-21-02-2020    
-    -criacao do arquivo "ufcTexcite.sty" na pasta "lib". Esse arquivo substitui o "abntTex2cite" que estava desatualizado perante a ABNT NBR 6023/2018. Nem todos as atualizacoes foram implementadas. Isso requer atencao do usuario para adequar ao guia de normalizacao academico. 
-    -Removido os simbolos "<" e ">" dos enderecos eletronicos.
-    -Adicionado o arquivo "abntex2-alf.bst" para alterar os simbolos "[S.l.]" e "[S.n.]" para italico e separados por espaco automaticamente. Antes isso so era possivel manualmente. 
+  - Lista de abreviaturas alterada. Estava em ordem alfabética e agora está em ordem que é citada no texto.
+  - Seções foram alterada para somente a primeira letra ficar em maiúsculo.
+  - Nomes de apêndices e anexos corrigidos para ficarem totalmente em maiúsculo e negrito.
+  - Citação com número de página incluída.
+  - Marcadores de itens modificados para "-".
+	
+21-02-2020  
+  - criacao do arquivo "ufcTexcite.sty" na pasta "lib". Esse arquivo substitui o "abntTex2cite" que estava desatualizado perante a ABNT NBR 6023/2018. Nem todos as atualizacoes foram implementadas. Isso requer atencao do usuario para adequar ao guia de normalizacao academico. 
+  - Removido os simbolos "<" e ">" dos enderecos eletronicos.
+  - Adicionado o arquivo "abntex2-alf.bst" para alterar os simbolos "[S.l.]" e "[S.n.]" para italico e separados por espaco automaticamente. Antes isso so era possivel manualmente. 
+	
 24-02-2020
-    -Travessão substituído por hífen no arquivo abntex2-alf.bst. 
+  - Travessão substituído por hífen no arquivo abntex2-alf.bst. 
+	
 25-02-2020
-    -Correção de citação de estado.    
+  - Correção de citação de estado.  
+	
 26-02-2020
-    -Espaçamento após hífen removido alterando linha 404 do arquivo "abntex2.cls" e linhas 1280 e 1379 do arquivo "ufcTex.sty"
+  - Espaçamento após hífen removido alterando linha 404 do arquivo "abntex2.cls" e linhas 1280 e 1379 do arquivo "ufcTex.sty"
+	
 28-02-2020
-    - Acrescentado novo colaborador da biblioteca central.
-    - Problema com espaço apos hifem resolvido provisoriamente.
+  - Acrescentado novo colaborador da biblioteca central.
+  - Problema com espaço apos hifem resolvido provisoriamente.
 
-# O que é?
+22-07-2022
+  - atualizações em todas as partes do template, visando adequar as novas normas da ABNT, conforme parecer emitido pela Comissão de Normalização do Sistema de Bibliotecas da UFC.
+
+## O que é?
 
 O **ufctex** é um projeto adaptado do [abnTeX2] da Associação Brasileira de normas técnicas [ueceTeX] da Universidade Estadual do Ceará. Essa versão, foi criada para o desenvolvimento de trabalhos acadêmicos de acordo com as normas da Universidade Federal do Ceará. Este template deve ser utilizado online de qualquer computador ou sistema operacional sem a necessidade de instalação e foi disponibilizada no OverLeaf. Entretanto, é possível baixar o template e trabalhar offline também. 
 
@@ -91,7 +112,7 @@ Departamento de Engenharia Elétrica.
 
  - Qualificação para Mestrado Acadêmico e Profissional
 
-# Limitações
+## Limitações
  
  O modelo atual possui algumas limitações que podem ser corrigidas ou implementadas em alguma versão futura. São elas:
  
@@ -100,7 +121,7 @@ Departamento de Engenharia Elétrica.
   - A folha de aprovação da Tese suporta no máximo 6 pessoas (Orientador, Co-orientador e 4 membros externos)
   - As referências possuem muitas variações, portanto, o autor deve está atento se o arquivo gerado corresponde ao esperado.
   
-# Dicas
+## Dicas
 Veja a seguir como inserir alguns elementos no seu texto.
 
 ### Como inserir uma Tabela
@@ -111,7 +132,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 	\UFCtab{}{
 		\begin{tabular}{ccll}
 			\toprule
-	    		Quisque & pharetra & tempus & vulputate \\
+	  		Quisque & pharetra & tempus & vulputate \\
 			\midrule \midrule
 				E1 & Complete coverage & Both splice sites \\
 				E2 & Complete coverage & Both splice sites \\
@@ -123,7 +144,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 		\end{tabular}
 	}{
 		\Fonte{Elaborado pelo autor}
-    }
+  }
 \end{table}
 ```
 
@@ -154,9 +175,9 @@ Veja a seguir como inserir alguns elementos no seu texto.
 	\centering
 	\Caption{\label{fig:label_da_figura} Legenda da Figura}	
 	\UFCfig{}{
-	    \includegraphics[width=8cm]{figuras/figura-1}
+	  \includegraphics[width=8cm]{figuras/figura-1}
 	}{
-	    \Fonte{Elaborado pelo autor}
+	  \Fonte{Elaborado pelo autor}
 	}	
 \end{figure}
 ```
@@ -165,7 +186,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ```tex
 \begin{alineas}
 	\item Lorem ipsum dolor sit amet;
-    \item Praesent vitae nulla varius;
+  \item Praesent vitae nulla varius;
 	\item Praesent quis erat eleifend;
 	\item Mauris facilisis odio eu:
 	\begin{subalineas}
@@ -223,182 +244,182 @@ Veja a seguir como inserir alguns elementos no seu texto.
 
 ### Como inserir referências
 
+```
 @article{article,
   author  = {Peter Adams}, 
   title   = {The title of the work},
   journal = {The name of the journal},
-  year    = 1993,
+  year  = 1993,
   number  = 2,
   pages   = {201-213},
   month   = 7,
-  note    = {An optional note}, 
+  note  = {An optional note}, 
   volume  = 4
 }
 
 @book{book,
-  author    = {Peter Babington}, 
-  title     = {The title of the work},
+  author  = {Peter Babington}, 
+  title   = {The title of the work},
   publisher = {The name of the publisher},
-  year      = 1993,
-  volume    = 4,
-  series    = 10,
+  year    = 1993,
+  volume  = 4,
+  series  = 10,
   address   = {The address},
   edition   = 3,
-  month     = 7,
-  note      = {An optional note},
-  isbn      = {3257227892}
+  month   = 7,
+  note    = {An optional note},
+  isbn    = {3257227892}
 }
 
 @booklet{booklet,
-  title        = {The title of the work},
-  author       = {Peter Caxton}, 
+  title    = {The title of the work},
+  author     = {Peter Caxton}, 
   howpublished = {How it was published},
-  address      = {The address of the publisher},
-  month        = 7,
-  year         = 1993,
-  note         = {An optional note}
+  address    = {The address of the publisher},
+  month    = 7,
+  year     = 1993,
+  note     = {An optional note}
 }
 
 @conference{conference,
-  author       = {Peter Draper}, 
-  title        = {The title of the work},
-  booktitle    = {The title of the book},
-  year         = 1993,
-  editor       = {The editor},
-  volume       = 4,
-  series       = 5,
-  pages        = 213,
-  address      = {The address of the publisher},
-  month        = 7,
+  author     = {Peter Draper}, 
+  title    = {The title of the work},
+  booktitle  = {The title of the book},
+  year     = 1993,
+  editor     = {The editor},
+  volume     = 4,
+  series     = 5,
+  pages    = 213,
+  address    = {The address of the publisher},
+  month    = 7,
   organization = {The organization},
-  publisher    = {The publisher},
-  note         = {An optional note}  
+  publisher  = {The publisher},
+  note     = {An optional note}  
 }
 
 @inbook{inbook,
-  author       = {Peter Eston}, 
-  title        = {The title of the work},
-  chapter      = 8,
-  pages        = {201-213},
-  publisher    = {The name of the publisher},
-  year         = 1993,
-  volume       = 4,
-  series       = 5,
-  address      = {The address of the publisher},
-  edition      = 3,
-  month        = 7,
-  note         = {An optional note}
+  author     = {Peter Eston}, 
+  title    = {The title of the work},
+  chapter    = 8,
+  pages    = {201-213},
+  publisher  = {The name of the publisher},
+  year     = 1993,
+  volume     = 4,
+  series     = 5,
+  address    = {The address of the publisher},
+  edition    = 3,
+  month    = 7,
+  note     = {An optional note}
 }
 
 @incollection{incollection,
-  author       = {Peter Farindon}, 
-  title        = {The title of the work},
-  booktitle    = {The title of the book},
-  publisher    = {The name of the publisher},
-  year         = 1993,
-  editor       = {The editor},
-  volume       = 4,
-  series       = 5,
-  chapter      = 8,
-  pages        = {201-213},
-  address      = {The address of the publisher},
-  edition      = 3,
-  month        = 7,
-  note         = {An optional note}
+  author     = {Peter Farindon}, 
+  title    = {The title of the work},
+  booktitle  = {The title of the book},
+  publisher  = {The name of the publisher},
+  year     = 1993,
+  editor     = {The editor},
+  volume     = 4,
+  series     = 5,
+  chapter    = 8,
+  pages    = {201-213},
+  address    = {The address of the publisher},
+  edition    = 3,
+  month    = 7,
+  note     = {An optional note}
 }
 
 
 @manual{manual,
-  title        = {The title of the work},
-  author       = {Peter Gainsford}, 
+  title    = {The title of the work},
+  author     = {Peter Gainsford}, 
   organization = {The organization},
-  address      = {The address of the publisher},
-  edition      = 3,
-  month        = 7,
-  year         = 1993,
-  note         = {An optional note}
+  address    = {The address of the publisher},
+  edition    = 3,
+  month    = 7,
+  year     = 1993,
+  note     = {An optional note}
 }
 
 @mastersthesis{mastersthesis,
-  author       = {Peter Harwood}, 
-  title        = {The title of the work},
-  school       = {The school where the thesis was written},
-  year         = 1993,
-  address      = {The address of the publisher},
-  month        = 7,
-  note         = {An optional note}
+  author     = {Peter Harwood}, 
+  title    = {The title of the work},
+  school     = {The school where the thesis was written},
+  year     = 1993,
+  address    = {The address of the publisher},
+  month    = 7,
+  note     = {An optional note}
 }
 
 @misc{misc,
-  author       = {Peter Isley}, 
-  title        = {The title of the work},
+  author     = {Peter Isley}, 
+  title    = {The title of the work},
   howpublished = {How it was published},
-  month        = 7,
-  year         = 1993,
-  note         = {An optional note}
+  month    = 7,
+  year     = 1993,
+  note     = {An optional note}
 }
 
 @phdthesis{phdthesis,
-  author       = {Peter Joslin}, 
-  title        = {The title of the work},
-  school       = {The school where the thesis was written},
-  year         = 1993,
-  address      = {The address of the publisher},
-  month        = 7,
-  note         = {An optional note}
+  author     = {Peter Joslin}, 
+  title    = {The title of the work},
+  school     = {The school where the thesis was written},
+  year     = 1993,
+  address    = {The address of the publisher},
+  month    = 7,
+  note     = {An optional note}
 }
 
 @proceedings{proceedings,
-  title        = {The title of the work},
-  year         = 1993,
-  editor       = {Peter Kidwelly},
-  volume       = 4,
-  series       = 5,
-  address      = {The address of the publisher},
-  month        = 7,
+  title    = {The title of the work},
+  year     = 1993,
+  editor     = {Peter Kidwelly},
+  volume     = 4,
+  series     = 5,
+  address    = {The address of the publisher},
+  month    = 7,
   organization = {The organization},
-  publisher    = {The name of the publisher},
-  note         = {An optional note}
+  publisher  = {The name of the publisher},
+  note     = {An optional note}
 }
 
 @techreport{techreport,
-  author       = {Peter Lambert}, 
-  title        = {The title of the work},
+  author     = {Peter Lambert}, 
+  title    = {The title of the work},
   institution  = {The institution that published},
-  year         = 1993,
-  number       = 2,
-  address      = {The address of the publisher},
-  month        = 7,
-  note         = {An optional note}
+  year     = 1993,
+  number     = 2,
+  address    = {The address of the publisher},
+  month    = 7,
+  note     = {An optional note}
 }
 
 @unpublished{unpublished,
-  author       = {Peter Marcheford}, 
-  title        = {The title of the work},
-  note         = {An optional note},
-  month        = 7,
-  year         = 1993
+  author     = {Peter Marcheford}, 
+  title    = {The title of the work},
+  note     = {An optional note},
+  month    = 7,
+  year     = 1993
 }
+```
 
-
-# Atenção
+## Atenção
 
 O ufcteX é fornecido gratuitamente e sem garantias e pode ser redistribuído livremente para fins acadêmicos. 
 
-# Agradecimentos
+## Agradecimentos
 
 ![alt tag](http://www.goes.uece.br/style/images/logo_goes.png)
 
 Grupo de Otimização em Engenharia de Software
 
+[Por Onde Comecar](https://github.com/abntex/abntex2/wiki/PorOndeComecar)
 
+Projeto original da UECE: [http://www.goes.uece.br](http://www.goes.uece.br)
 
-[Por Onde Comecar]:https://code.google.com/p/abntex2/wiki/PorOndeComecar
+[abnTeX2](https://www.abntex.net.br/)
 
-Projeto original da UECE: [http://www.goes.uece.br]:http://www.goes.uece.br
-[http://www.goes.uece.br]
-[abnTeX2]:https://code.google.com/p/abntex2/
-[http://miktex.org/download]:http://miktex.org/download
-[http://texstudio.sourceforge.net/]:http://texstudio.sourceforge.net/
+[http://miktex.org/download](http://miktex.org/download)
 
+[http://texstudio.sourceforge.net/](http://texstudio.sourceforge.net/)
 
