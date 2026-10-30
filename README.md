@@ -1,5 +1,21 @@
 # UFC - Modelo de trabalho acadêmico utilizando o LaTeX
 
+## Como limpar o template
+
+Para restaurar os arquivos de conteúdo do template ao estado original:
+
+```bash
+make clean-template
+```
+
+No Windows, utilizando o PowerShell, execute:
+
+```bash
+.\clean-template.ps1
+```
+
+> O comando de restauração remove os arquivos adicionados nas pastas de figuras, anexos e apêndices, além de restaurar os arquivos de texto, referências, glossário, resumo e demais conteúdos padrão do template. Essa operação não pode ser desfeita automaticamente.
+
 ## Últimas alterações
 
 03-07-2017        
