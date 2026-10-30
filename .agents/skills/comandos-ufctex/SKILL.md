@@ -36,7 +36,7 @@ template da UFC e devem ser preferidos às alternativas LaTeX genéricas.
 
 ## Comandos cobertos
 
-Esta skill documenta os comandos indicados em `comando a explicar.txt`:
+Esta skill documenta os comandos abaixo:
 
 - `\Caption`, `\Fonte`, `\Nota`;
 - `\UFCfig`, `\UFCtab`, `\UFCqua`;
